@@ -7,7 +7,7 @@ body {
   justify-content: center;
 }
 img {
-    width: 100px;
+  width: 100px;
 }
 #video_box {
   position: relative;
@@ -49,18 +49,18 @@ img {
   color: #b2afb0;
 }
 #backButton:hover {
-    color: gray;
-  }
+  color: gray;
+}
 #cards {
   display: none;
   justify-content: space-around;
   margin-top: 50px;
 }
 #loading {
-    color: #b2afb0;
-    width: 500px;
-    margin: auto;
-    margin-top: 225px;
+  color: #b2afb0;
+  width: 500px;
+  margin: auto;
+  margin-top: 225px;
 }
 .card {
   display: flex;
@@ -69,9 +69,9 @@ img {
   width: 25%;
   padding: 10px;
   border: #f8f8f8 1px solid;
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75),
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
 .info {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }

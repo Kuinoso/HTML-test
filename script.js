@@ -27,19 +27,19 @@ const openSlate = () => {
             document.getElementById("night2").innerHTML = day2.mintempC + '°';
             document.getElementById("night3").innerHTML = day3.mintempC + '°';
 
-            document.getElementById("condition1a").innerHTML= day1.hourly[5].weatherDesc[0].value;
-            document.getElementById("condition2a").innerHTML= day2.hourly[5].weatherDesc[0].value;
-            document.getElementById("condition3a").innerHTML= day3.hourly[5].weatherDesc[0].value;
-            document.getElementById("condition1b").innerHTML= day1.hourly[7].weatherDesc[0].value;
-            document.getElementById("condition2b").innerHTML= day2.hourly[7].weatherDesc[0].value;
-            document.getElementById("condition3b").innerHTML= day3.hourly[7].weatherDesc[0].value;
+            document.getElementById("condition1a").innerHTML = day1.hourly[5].weatherDesc[0].value;
+            document.getElementById("condition2a").innerHTML = day2.hourly[5].weatherDesc[0].value;
+            document.getElementById("condition3a").innerHTML = day3.hourly[5].weatherDesc[0].value;
+            document.getElementById("condition1b").innerHTML = day1.hourly[7].weatherDesc[0].value;
+            document.getElementById("condition2b").innerHTML = day2.hourly[7].weatherDesc[0].value;
+            document.getElementById("condition3b").innerHTML = day3.hourly[7].weatherDesc[0].value;
 
-            document.getElementById("img1a").src= day1.hourly[5].weatherIconUrl[0].value;
-            document.getElementById("img2a").src= day2.hourly[5].weatherIconUrl[0].value;
-            document.getElementById("img3a").src= day3.hourly[5].weatherIconUrl[0].value;
-            document.getElementById("img1b").src= day1.hourly[7].weatherIconUrl[0].value;
-            document.getElementById("img2b").src= day2.hourly[7].weatherIconUrl[0].value;
-            document.getElementById("img3b").src= day3.hourly[7].weatherIconUrl[0].value;
+            document.getElementById("img1a").src = day1.hourly[5].weatherIconUrl[0].value;
+            document.getElementById("img2a").src = day2.hourly[5].weatherIconUrl[0].value;
+            document.getElementById("img3a").src = day3.hourly[5].weatherIconUrl[0].value;
+            document.getElementById("img1b").src = day1.hourly[7].weatherIconUrl[0].value;
+            document.getElementById("img2b").src = day2.hourly[7].weatherIconUrl[0].value;
+            document.getElementById("img3b").src = day3.hourly[7].weatherIconUrl[0].value;
 
             document.getElementById("sunrise1").innerHTML = day1.astronomy[0].sunrise;
             document.getElementById("sunrise2").innerHTML = day2.astronomy[0].sunrise;
@@ -61,7 +61,4 @@ const closeSlate = () => {
 
     const vid = document.getElementById("myVideo");
     vid.play();
-};
-const test = {
-    test: 'Test'
 };
