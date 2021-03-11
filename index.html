@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML test</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id='video_box'>
+        <div id="video_overlays">
+            <h2>Check Minneaplois weather</h2>
+            <button id='weather_button' onclick="openSlate()">Click to expand</button>
+        </div>
+        <div id="slate">
+            <h4 id="backButton" onclick="closeSlate()">< Back</h4>
+            <h1>Three Days Forecast for Minneapolis</h1>
+            <h2 id="loading">Loading forecast, please wait...</h2>
+            <div id="cards">
+                <div class="card">
+                    <p>Date: <span id="date1"></span></p>
+                    <div class="info">
+                        <p>Day: <span id="day1"></span></p>
+                        <p>Night: <span id="night1"></span></p>
+                    </div>
+                    <div class="info">
+                        <p id="condition1a"></p>
+                        <p id="condition1b"></p>
+                    </div>
+                    <div class="info">
+                        <img id="img1a" src="" />
+                        <img id="img1b" src="" />
+                    </div>
+                    <p>Sunrise: <span id="sunrise1"></span></p>
+                    <p>Sunset: <span id="sunset1"></span></p>
+                </div>
+                <div class="card">
+                    <p>Date: <span id="date2"></span></p>
+                    <div class="info">
+                        <p>Day: <span id="day2"></span></p>
+                        <p>Night: <span id="night2"></span></p>
+                    </div>
+                    <div class="info">
+                        <p id="condition2a"></p>
+                        <p id="condition2b"></p>
+                    </div>
+                    <div class="info">
+                        <img id="img2a" src="" />
+                        <img id="img2b" src="" />
+                    </div>
+                    <p>Sunrise: <span id="sunrise2"></span></p>
+                    <p>Sunset: <span id="sunset2"></span></p>
+                </div>
+                <div class="card">
+                    <p>Date: <span id="date3"></span></p>
+                    <div class="info">
+                        <p>Day: <span id="day3"></span></p>
+                        <p>Night: <span id="night3"></span></p>
+                    </div>
+                    <div class="info">
+                        <p id="condition3a"></p>
+                        <p id="condition3b"></p>
+                    </div>
+                    <div class="info">
+                        <img id="img3a" src="" />
+                        <img id="img3b" src="" />
+                    </div>
+                    <p>Sunrise: <span id="sunrise3"></span></p>
+                    <p>Sunset: <span id="sunset3"></span></p>
+                </div>
+            </div>
+        </div>
+        <video id='myVideo' width="1280" height="720" controls>
+            <source src="./media/video.mp4"
+                type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
